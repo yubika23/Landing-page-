@@ -1,0 +1,82 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Confirmation section */
+.confirmation-area {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url('./images/restaurant-background.jpg') center/cover no-repeat; /* Optional background */
+}
+
+.confirmation-container {
+    background-color: rgba(0, 0, 0, 0.7); /* Dark overlay for text readability */
+    padding: 40px;
+    border-radius: 10px;
+    color: white;
+    width: 90%;
+    max-width: 600px;
+}
+
+.confirmation-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #ff5733; /* Custom color */
+}
+
+.confirmation-container p {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.details {
+    margin-bottom: 30px;
+}
+
+.small-text {
+    font-size: 1rem;
+    margin-bottom: 40px;
+}
+
+/* Button styling */
+.home-btn {
+    background-color: #e74c3c;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    text-decoration-color: aliceblue;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.home-btn:hover {
+    background-color: #c0392b;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .confirmation-title {
+        font-size: 2rem;
+    }
+
+    .confirmation-container p {
+        font-size: 1.1rem;
+    }
+
+    .home-btn {
+        font-size: 1.1rem;
+    }
+}

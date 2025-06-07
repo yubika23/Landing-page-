@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Website | Home</title>
+</head>
+<body>
+    
+    <header>
+        <div class="header">
+
+            <div class="headerbar">
+                <div class="account">
+                    <div class="nav-bar">
+                        <a href="index.html"><i class="home-icon"></i></a> <!-- Home Icon -->
+                        <a href="search.html"><i class="search-icon"></i></a> <!-- Search Icon -->
+                        <a href="login.html"><i class="person-icon"></i></a> <!-- Person Icon (Profile) -->
+                    </div>
+                </div>
+                <div class="nav">
+                    <ul>
+                        <li><a href="./Food/index.html">Home</a></li>
+                        <li><a href="..Food/about.html">About</a></li>
+                        <li><a href="..Food/food-menu.html">Food Menu</a></li>
+                        <li><a href="..Food/book-table.html">Book Table</a></li>
+                    </ul>
+                </div>
+                
+            </div>
+            <h1 class="logo">Fork And Fusion</h1>
+        <div class="bar">
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-xmark" id="hdcross"></i>
+        </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="../Food/about.html">About</a></li>
+                    <li><a href="../Food/food-menu.html">Food Menu</a></li>
+                    <li><a href="../Food/book-table.html">Book Table</a></li>
+                </ul>
+            </div>
+        <div class="account">
+            <div class="nav-bar">
+                <a href="index.html"><i class="home-icon"></i></a> <!-- Home Icon -->
+                <a href="search.html"><i class="search-icon"></i></a> <!-- Search Icon -->
+                <a href="login.html"><i class="person-icon"></i></a> <!-- Person Icon (Profile) -->
+            </div>
+        </div>
+        </div>
+    </header>
+    
+      <section class="showcase-area" id="showcase">
+        <div class="showcase-container">
+            <h1 class="main-title" id="home">Eat Right Food</h1>
+            <p>Eat Healthy, it is good for our health.</p>
+            <button class="red_btn">Book Now <i class="fa-solid fa-arrow-right-long"></i></button>
+        </div>
+    </section>
+
+    <script>
+        document.querySelector('.red_btn').addEventListener('click', function() {
+            window.location.href = 'book-table.html';  // Replace with your actual booking page
+        });
+    </script>
+
+    <section id="about">
+        <div class="about-wrapper container">
+            <div class="about-text">
+                <p class="small">About Us</p>
+                <h2>We've been making healthy food from last 10 years</h2>
+                <p> The Food you all trust and found delicious up until now, make us feel proud and motivated to make more new
+                    and refreshing dishes for you all. Hope you all keep enjoying our dishes. 
+                    Thanks with our gratitude to all.</p>
+            </div>
+            <div class="about-img">
+                <img src="https://i.postimg.cc/mgpwzmx9/about-photo.jpg" alt="food">
+            </div>
+        </div>
+    </section>
+
+    <section id="food">
+        <h2>Types of food we have for you all :-</h2>
+        <div class="food-container container">
+            <div class="food-type Fruit">
+                 <h2>North Indian Food</h2>
+                <div class="img-container">
+                    <img src="./images/North indian.webp" alt="error" width="1000" height="600">
+                    <div class="img-content">
+                        
+                        <a href="https://en.wikipedia.org/wiki/North_Indian_cuisine" class="btn btn-primary" target="blank">Learn
+                            more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="food-type vegetable">
+                <div class="img-container">
+                    <h2>South Indian Food</h2>
+                    <img src="./images/South indian.webp" alt="error" width="1000" height="600">
+                    <div class="img-content">
+                        
+                        <a href="https://en.wikipedia.org/wiki/South_Indian_cuisine" class="btn btn-primary" target="blank">Learn
+                            more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="food-type grin">
+                <div class="img-container">
+                      <h2>Nepali Food</h2>
+                    <img src="./images/nepali food.avif" alt="error" width="1000" height="600">
+                    <div class="img-content">
+                        <a href="https://en.wikipedia.org/wiki/Nepalese_cuisine" class="btn btn-primary" target="blank">Learn
+                            more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+     
+    <div class="main_slide2">
+    <section id="question">
+        <div class="question-wrapper container">
+            <div class="question-text">
+                <h2 class="q-ans">Why People Choose Us?</h2>
+                <p class="bullet">Choose your Favourite</p>
+                <p class="bullet">Late Night services.</p>
+                <p class="bullet">Special Discounts.</p>
+            </div>
+            <div class="question-img">
+                <img src="./images/food plate.png" alt="food">
+            </div>
+        </div>
+    </section>
+    </div>
+
+    <header>
+        <h1>Our Popular Food Items</h1>
+        <p>Most ordered and trusted food of our Restaurant.</p>
+    </header>
+
+    <section class="food-items">
+        <div class="food-card">
+            <img src="./images/Burger.avif" alt="Food 1">
+            <h3> Burger</h3>
+            <p>Most Famous and ordered food.</p>
+            <p class="price">70 Rs.</p>
+        </div>
+        <div class="food-card">
+            <img src="./images/pizza.jpg" alt="Food 2">
+            <h3>Pizza</h3>
+            <p>Most delicious and preferred food.</p>
+            <p class="price">150 Rs.</p>
+        </div>
+        <div class="food-card">
+            <img src="./images/spring roll.jpg" alt="Food 3">
+            <h3>Spring Roll</h3>
+            <p>Most Comforting and crispy food.</p>
+            <p class="price">100 Rs.</p>
+        </div>
+       
+    </section>
+
+    <section id="testimonials">
+        <h2 class="testimonial-title">What Our Customers Say</h2>
+        <div class="testimonial-container container">
+            <div class="testimonial-box">
+                <div class="customer-detail">
+                    <div class="customer-photo">
+                        <img src="https://i.postimg.cc/5Nrw360Y/male-photo1.jpg" alt="">
+                        <p class="customer-name">Rock Lee</p>
+                    </div>
+                </div>
+                <div class="star-rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+                <p class="testimonial-text">
+                    Never experienced this kind of restaurant before, it was a very great experience of mine.
+                </p>
+
+            </div>
+            <div class="testimonial-box">
+                <div class="customer-detail">
+                    <div class="customer-photo">
+                        <img src="https://i.postimg.cc/sxd2xCD2/female-photo1.jpg" alt="">
+                        <p class="customer-name">Zara Khan</p>
+                    </div>
+                </div>
+                <div class="star-rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    
+                </div>
+                <p class="testimonial-text">
+                 Best dining experience ever! The food was delicious, and the service was top-notch.  
+                </p>
+
+            </div>
+            <div class="testimonial-box">
+                <div class="customer-detail">
+                    <div class="customer-photo">
+                        <img src="https://i.postimg.cc/fy90qvkV/male-photo3.jpg" alt="">
+                        <p class="customer-name">Ben Ten</p>
+                    </div>
+                </div>
+                <div class="star-rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+                <p class="testimonial-text">
+                    I ordered Paneer Tikka Masala for the first time which was cooked to perfection. And the service was attentive.
+                </p>
+                <div class="testimonial-box">
+                <div class="customer-detail">
+                    <div class="customer-photo">
+                   <img src="https://i.postimg.cc/1XvYM67V/restraunt2.jpg" alt="">
+                        <p class="customer-name">Maria Addams </p>
+                    </div>
+                </div>
+                <div class="star-rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    
+                </div>
+                <p class="testimonial-text">
+                  Better than the other Indian food places in town. Authentic Flavours and Cozy Ambiance.
+                </p>
+
+            </div>
+        </div>
+    </div></section>
+   
+    <section class="chef-section">
+        <div class="container">
+            <div class="chef-content">
+                <div class="feedback">
+                    <h2>Customer <span class="highlight">Feedback</span></h2>
+                    <p>We Value Your Feedback!</p>
+                    <p>
+At Fork And Fusion, your experience matters to us. We’re always striving to improve and provide the best service possible. Please take a moment to share your thoughts with us.
+                    </p>
+                    <div class="developer-info">
+                        <img src="./images/gojo-logo.png" alt="Developer Icon" class="developer-icon">
+                        <div class="developer-text">
+                            <strong>Satoru Gojo</strong>
+                            <p>CEO & Founder</p>
+                        </div>
+                    </div>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <span>68</span>
+                            <p>More branches</p>
+                        </div>
+                        <div class="stat-item">
+                            <span>956</span>
+                            <p>Regular</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="chef-image">
+                    <img src="./images/chef.png" alt="Chef Image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact">
+        <div class="contact-container container">
+            <div class="contact-img">
+               
+            </div>
+
+            <div class="form-container">
+                <h2>Contact Us</h2>
+                <input type="text" placeholder="Your Name">
+                <input type="email" placeholder="E-Mail">
+                <textarea cols="30" rows="6" placeholder="Type Your Message"></textarea>
+                <a href="" class="btn btn-primary">Submit</a>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+</html>
+
